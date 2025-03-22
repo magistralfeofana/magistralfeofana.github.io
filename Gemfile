@@ -1,5 +1,9 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "jekyll", "~> 4.3.0"
-gem "webrick" # Нужно для локального сервера
-gem "minima"
+gem 'jekyll', '~> 4.2.1'
+gem 'minima', '~> 2.5'
+gem 'jekyll-feed', '~> 0.12'
+
+group :jekyll_plugins do
+  gem 'jekyll-seo-tag', '~> 2.6'
+end
