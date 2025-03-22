@@ -1,12 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Адаптив-область vieport будет подстраиваться под ширину экрана. Первое значение изначальный масштаб страницы. Второе максималтный масштаб страницы. Третье запрет масштабирования. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum--scale=1.0, user-scalable=0">
+    <!--Отключает формирование ссылки у теелфона на iOS-->
+    <meta name="format-detection" content="telephone=no">
+    <!--Краткое описание страницы-->
+    <meta name="description" content="Храм во имя свт. Феофана Затворника (п. Магистральный)">
+    <!-- Управление доступом поисковых роботов к странице -->
+    <meta name="robots" content="noindex">
+    <!--Название страницы-->
+    <title>Храм во имя свт. Феофана Затворника (п. Магистральный)</title>
+    <!--Пдключаем иконку страницы-->
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <!--Пордключаем CSS-->
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 
 <body>
