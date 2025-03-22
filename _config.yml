@@ -1,9 +1,9 @@
 title: "Магистраль Феофана"
 description: "Официальный сайт"
-baseurl: ""  # Если сайт username.github.io, оставь пустым
-url: "https://magistralfeofana.github.io"  # Замени на свой URL
+baseurl: ""  
+url: "https://magistralfeofana.github.io"  
 
-theme: minima  # Можно выбрать другую тему
+theme: minima  
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
