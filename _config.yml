@@ -1,9 +1,4 @@
 title: "Магистраль Феофана"
 description: "Официальный сайт"
 baseurl: ""  
-url: "https://magistralfeofana.github.io"  
-
-theme: minima  
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+url: "https://magistralfeofana.github.io"
