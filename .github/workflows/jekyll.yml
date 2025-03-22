@@ -22,16 +22,15 @@ jobs:
         with:
           ruby-version: '3.1'
 
-      - name: Install Bundler
-        run: gem install bundler
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
 
-      - name: Install Jekyll and dependencies
-        run: bundle install
-
-      - name: Build site
+      - name: Build Jekyll site
         run: bundle exec jekyll build
 
-      - name: Upload artifact
+      - name: Upload artifact to GitHub Pages
         uses: actions/upload-pages-artifact@v2
         with:
           path: _site
