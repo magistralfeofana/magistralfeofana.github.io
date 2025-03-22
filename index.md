@@ -5,7 +5,7 @@ description: Храм во имя свт. Феофана Затворника (�
 ---
 
 <div class="container-icon">
-    <img class="icon" src="{{ '/assets/img/dormition-of-the-theotokos-5679789-1920035007-1024x576.webp' | relative_url }}" alt="Икона Успения Пресвятой Богородицы">
+    <img class="icon" src="{{ '/assets/img/feofan.jpg' | relative_url }}" alt="Икона Успения Пресвятой Богородицы">
 </div>
 <h2 class="body-header">История храма</h2>
 <div class="container-image-history_1">
