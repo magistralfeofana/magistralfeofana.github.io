@@ -1,7 +1,7 @@
 title: "Магистраль Феофана"
 description: "Официальный сайт"
 baseurl: ""  # Если сайт username.github.io, оставь пустым
-url: "https://username.github.io"  # Замени на свой URL
+url: "https://magistralfeofana.github.io"  # Замени на свой URL
 
 theme: minima  # Можно выбрать другую тему
 plugins:
