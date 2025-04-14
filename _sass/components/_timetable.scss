@@ -1,0 +1,80 @@
+table {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 24px;
+    border: 1px solid #999;
+    border-radius: 20px;
+}
+
+td {
+
+    border: 1px solid #999;
+    border-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.color {
+    color: rgb(142, 0, 0);
+}
+
+td:first-child {
+    text-align: center;
+    width: 10px;
+}
+
+td:nth-child(2) {
+    width: 105px;
+}
+
+
+
+.background-timetable {
+    .opacyti-body {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+.background-site-timetable {
+    background-image: url(../img/background-timetable.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    .opacyti-body-timetable {
+        background: rgba(38, 47, 75, 0.4);
+
+        .container-width-timetable {
+            .timetable {
+                padding-top: 150px;
+
+                .header {
+                    font-family: 'Montserrat', sans-serif;
+                    padding-top: 50px;
+                    font-size: 34px;
+                    color: white;
+                    text-align: center;
+
+                }
+
+                .lorem {
+                    padding-top: 100px;
+                    padding-bottom: 100px;
+
+                    .table-timetable {
+                        position: relative;
+                        background-color: antiquewhite;
+                        opacity: 0.9;
+                        color: rgb(6, 6, 6);
+                        z-index: 1;
+                        border-radius: 20px;
+                    }
+
+                }
+            }
+        }
+    }
+}

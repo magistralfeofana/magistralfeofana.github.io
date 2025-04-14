@@ -1,0 +1,208 @@
+.view.submenu_1 {
+    .opacyti-body {
+        .container-width {
+            text-align: center;
+            max-width: 1000px;
+
+            .cerch-name {
+                display: none;
+            }
+
+            .list-submenu_1 {
+                position: relative;
+                visibility: visible;
+                display: flex;
+                font-size: 2rem;
+                padding-top: 100px;
+
+                a {
+                    color: white;
+                    border: 1px solid;
+                    padding: 20px;
+                    width: 280px;
+                    white-space: nowrap;
+                    font-family: "Lora", serif;
+                }
+
+            }
+        }
+    }
+}
+
+.view.submenu_2 {
+    .opacyti-body {
+        .container-width {
+            text-align: center;
+            max-width: 1000px;
+
+            .cerch-name {
+                display: none;
+            }
+
+            .list-submenu_2 {
+                position: relative;
+                visibility: visible;
+                display: flex;
+                font-size: 2rem;
+                padding-top: 100px;
+
+                a {
+                    color: white;
+                    border: 1px solid;
+                    padding: 20px;
+                    width: 420px;
+                    white-space: nowrap;
+                    font-family: "Lora", serif;
+                }
+
+            }
+        }
+    }
+}
+
+.view.submenu_3 {
+    .opacyti-body {
+        .container-width {
+            text-align: center;
+            max-width: 1000px;
+
+            .cerch-name {
+                display: none;
+            }
+
+            .list-submenu_3 {
+                position: relative;
+                visibility: visible;
+                display: flex;
+                font-size: 2rem;
+                padding-top: 100px;
+
+                a {
+                    color: white;
+                    border: 1px solid;
+                    padding: 20px;
+                    width: 220px;
+                    white-space: nowrap;
+                    font-family: "Lora", serif;
+                }
+
+            }
+        }
+    }
+}
+
+.view.submenu_4 {
+    .opacyti-body {
+        .container-width {
+            text-align: center;
+            max-width: 1000px;
+
+            .cerch-name {
+                display: none;
+            }
+
+            .list-submenu_4 {
+                position: relative;
+                visibility: visible;
+                display: flex;
+                font-size: 2rem;
+                padding-top: 100px;
+
+                a {
+                    color: white;
+                    border: 1px solid;
+                    padding: 20px;
+                    flex: 0 1 50px;
+                    white-space: nowrap;
+                    font-family: "Lora", serif;
+                }
+
+            }
+        }
+    }
+}
+
+.view.submenu_5 {
+    .opacyti-body {
+        .container-width {
+            text-align: center;
+            max-width: 1000px;
+
+            .cerch-name {
+                display: none;
+            }
+
+            .list-submenu_5 {
+                position: relative;
+                visibility: visible;
+                display: flex;
+                font-size: 2rem;
+                padding-top: 100px;
+
+                a {
+                    color: white;
+                    border: 1px solid;
+                    padding: 20px;
+                    flex: 0 1 50px;
+                    white-space: nowrap;
+                    font-family: "Lora", serif;
+                }
+
+            }
+        }
+    }
+}
+
+
+
+.view.promo_2 {
+    background-image: url("../img/background-timetable.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0;
+    animation: view-opacity-timetable 2.5s forwards;
+
+}
+
+
+
+@keyframes view-opacity-timetable {
+    0% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.view.promo_3 {
+    background-image: url("../img/background-live-cerch.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0;
+    animation: view-opacity-live-cerch 2.5s forwards;
+
+}
+
+@keyframes view-opacity-live-cerch {
+    0% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.view.promo_4 {
+    background-image: url("../img/77\ Усть-Кут\ Освящение\ Престола.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0;
+    animation: view-opacity-live-cerch 2.5s forwards;
+}

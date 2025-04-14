@@ -1,0 +1,622 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@600&family=Hind+Madurai:wght@300;400&family=Lora:ital,wght@1,500;1,600&family=Montserrat:wght@700;900&display=swap');
+@import 'plugins/back-to-top';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/charity';
+@import 'layout/clergy';
+@import 'layout/contacts';
+@import 'layout/submenu';
+@import 'layout/news';
+@import 'components/timetable';
+@import 'plugins/colorbox';
+@import 'plugins/swiper';
+@import 'layout/sacrament';
+/*font-family: 'Cormorant Infant', serif;
+font-family: 'Hind Madurai', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;*/
+
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: auto;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 15px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/*--------------------*/
+
+
+.container-width {
+    max-width: 1400px;
+    margin: 0px auto;
+    padding: 0 10px;
+}
+
+body {
+    //font-family: 'Hind Madurai', sans-serif;
+    color: #678574;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 2.5;
+    text-align: left;
+
+
+    .background-site {
+        padding-top: 100px;
+
+        .opacyti-body {
+            margin: 0 auto;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.5);
+            text-align: center;
+
+            main {
+                position: relative;
+
+                .container-icon {
+                    margin-top: 50px;
+                    position: relative;
+                    max-block-size: 500px;
+                    margin-bottom: 100px;
+                    overflow: hidden;
+
+                    .icon {
+                        width: 100%;
+                        margin: auto;
+
+                    }
+                }
+
+                .holy {
+
+                    display: flex;
+                    flex-wrap: nowrap;
+                    justify-content: center;
+                    max-height: 630px;
+                    overflow: hidden;
+
+
+                    .gates-1 {
+                        content: url("../img/Rez/Hram_1.jpg");
+                        width: 33%;
+                        padding: 2px 2px 2px 2px;
+                        margin: 0px;
+                        margin-top: -200px;
+                        height: 100%;
+                    }
+
+                    .gates-2 {
+                        content: url("../img/Rez/Hram_2.jpg");
+                        width: 33%;
+                        padding: 2px;
+                        margin: 0px;
+                        margin-top: -200px;
+                        height: 100%;
+                    }
+
+                    .gates-3 {
+                        content: url("../img/Rez/Hram_3.jpg");
+                        width: 33%;
+                        padding: 2px 2px 0 2px;
+                        margin: 0px;
+                        margin-top: -200px;
+                        height: 100%;
+                    }
+                }
+
+                .lorem {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    font-size: x-large;
+                    padding-top: 100px;
+                    padding-bottom: 100px;
+                    text-align: justify;
+
+                    p {
+                        text-indent: 2em;
+                        margin-top: 1em;
+                        margin-bottom: 1em;
+                    }
+                }
+
+                .lorem-center {
+                    font-size: x-large;
+                    padding-top: 100px;
+                    padding-bottom: 100px;
+                    text-align: center;
+
+                    p {
+                        text-indent: 2em;
+                        margin-top: 1em;
+                        margin-bottom: 1em;
+                    }
+                }
+
+                .container-image-history_1 {
+                    position: absolute;
+                    width: 100%;
+                    padding-top: 100px;
+                    opacity: 20%;
+
+                    .image-history_1 {
+                        position: absolute;
+                        left: 50px;
+                        max-width: 20%;
+                        transform: rotate(-10deg);
+                    }
+
+
+                }
+
+                .container-image-history_2 {
+                    position: absolute;
+                    width: 100%;
+                    padding-top: 100px;
+                    padding-bottom: 100px;
+                    opacity: 20%;
+
+                    .image-history_2 {
+                        position: absolute;
+                        max-width: 20%;
+                        transform: rotate(11deg);
+                        right: 50px;
+                        bottom: -850px;
+                    }
+                }
+
+                .container-image-history_1:hover,
+                .container-image-history_2:hover {
+                    opacity: 100%;
+                    animation: view-opacity-container-image-history_1 1.5s forwards;
+                }
+            }
+
+
+        }
+    }
+}
+
+@media (max-width:1400px) {
+    .container-width {
+        max-width: 1200px;
+        margin: 0px auto;
+        padding: 0 10px;
+
+        .swiper-button-prev,
+        .swiper-button-next {
+            margin-top: calc(700px - (var(--swiper-navigation-size) / 2));
+        }
+    }
+
+    .map {
+        max-width: 1200px;
+        min-width: 420px;
+        max-height: 700px;
+        background: #333;
+        width: 1200px;
+        height: 700px;
+    }
+}
+
+@media (max-width:1200px) {
+    .container-width {
+
+        .swiper-button-prev,
+        .swiper-button-next {
+            margin-top: calc(1000px - (var(--swiper-navigation-size) / 2));
+            padding-top: 100px;
+        }
+    }
+
+    body .background-site .opacyti-body main {
+        .container-image-history_1 {
+            .image-history_1 {
+                left: 50px;
+            }
+        }
+
+        .container-image-history_2 {
+            .image-history_2 {
+                top: 1050px;
+            }
+        }
+
+        .holy {
+            display: none;
+        }
+
+        .container-width {
+            max-width: 970px;
+            margin: 0px auto;
+            padding: 0 10px;
+
+
+            .logo-link-back-to-pravbratsk {
+                margin: 95px 0 0 0;
+                padding-right: 30px;
+                padding-left: 50px;
+            }
+
+
+
+        }
+
+        .map {
+            max-width: 1000px;
+            min-width: 420px;
+            max-height: 700px;
+            background: #333;
+            width: 1000px;
+            height: 600px;
+        }
+    }
+}
+
+@media (max-width:992px) {
+    .container-width {
+        max-width: 750px;
+        margin: 0px auto;
+        padding: 0 10px;
+
+        .swiper-button-prev,
+        .swiper-button-next {
+            margin-top: calc(1200px - (var(--swiper-navigation-size) / 2));
+            width: calc(var(--swiper-navigation-size) / 44 * 1);
+            padding-top: 100px;
+        }
+    }
+
+    body .background-site .opacyti-body main {
+        .container-image-history_1 {
+            .image-history_1 {
+                left: 50px;
+                max-width: 29%;
+            }
+        }
+
+        .container-image-history_2 {
+            .image-history_2 {
+                max-width: 29%;
+                top: 1250px;
+            }
+        }
+
+
+
+        .body.lock {
+            overflow: hidden;
+        }
+
+        .map {
+            max-width: 700px;
+            min-width: 420px;
+            max-height: 700px;
+            background: #333;
+            width: 700px;
+            height: 700px;
+        }
+    }
+
+}
+
+@media (max-width:767px) {
+    .container-width {
+        max-width: none;
+        margin: 0px auto;
+        padding: 0 10px;
+
+
+
+        .image-slider .swiper-button-next::after,
+        .image-slider .swiper-button-prev::after,
+        .swiper-button-next,
+        .swiper-button-prev {
+            display: none;
+        }
+
+
+    }
+
+    body .background-site .opacyti-body main {
+        .container-image-history_1 {
+            .image-history_1 {
+                left: 50px;
+                max-width: 29%;
+            }
+        }
+
+        .container-image-history_2 {
+            .image-history_2 {
+                max-width: 29%;
+                top: 1700px;
+            }
+        }
+
+
+
+        .map {
+            max-width: 500;
+            min-width: 420px;
+            max-height: 700px;
+            background: #333;
+            width: 500px;
+            height: 500px;
+        }
+
+        .page-footer-section {
+            flex-direction: column;
+        }
+
+        .page-footer-menu {
+            margin: 0 2rem 1.5rem;
+
+        }
+    }
+}
+
+@media (max-width:480px) {
+    body .background-site .opacyti-body main {
+        .lorem {
+            font-size: large;
+            line-height: 2;
+        }
+
+        .container-image-history_1 {
+            .image-history_1 {
+                left: 20px;
+                max-width: 40%;
+            }
+        }
+
+        .container-image-history_2 {
+            .image-history_2 {
+                max-width: 40%;
+                top: 1300px;
+                right: 20px;
+            }
+        }
+
+        .map {
+            max-width: 300px;
+            min-width: 250px;
+            max-height: 250px;
+            background: #333;
+            width: 300px;
+            height: 300px;
+        }
+    }
+}
+
+
+.container-nav._active {
+    border-bottom-color: #f0f0f0;
+    transition-duration: 0.5s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.7, 1, .7, 1);
+    background: rgba(255, 255, 255);
+
+    .container-width {
+        .logo-link-back-to-pravbratsk {
+            .logo-link {
+                color: white;
+            }
+
+            .logo-link:visited {
+                color: white;
+            }
+        }
+
+        .navbar {
+            .menu {
+                li {
+                    margin: 0px 2vw 0px 2vw;
+                    white-space: nowrap;
+
+                    .menu-link {
+                        color: rgba(38, 47, 75, 0.9);
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+.body-header {
+    font-size: clamp(35px, 5vw, 43px);
+    font-family: 'Lora', serif;
+    margin-top: 100px;
+}
+
+
+.menu-link:hover {
+    border-bottom: 1px solid;
+    transition-duration: 0.05s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.7, 1, .7, 1);
+}
+
+
+
+
+
+
+@keyframes view-opacity {
+    0% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+@keyframes view-opacity-container-image-history_1 {
+    0% {
+        opacity: 0.2;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+#colorbox {
+    max-width: 100%;
+    position: absolute;
+    z-index: 9999;
+}
+
+.container-slider {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    overflow: hidden;
+
+    .image-slider {
+        padding: 30px 0 70px 0;
+
+        .image-slider_wrapper {
+            .image-slider_slide {
+                .image-slider_image {
+                    .group {
+                        .fade {
+                            width: 75%;
+                            height: 100%;
+                            max-block-size: 600px;
+                            overflow: hidden;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+.image-slider .swiper-button-next::after,
+.image-slider .swiper-button-prev::after {
+    color: #5071ca;
+    font-size: 80px;
+
+}
+
+
+.image-slider .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    font-size: 14px;
+
+}
+
+.group {
+    .fade {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+.map {
+    max-width: 1400px;
+    min-width: 420px;
+    max-height: 700px;
+    background: #333;
+    width: 1400px;
+    height: 700px;
+}

@@ -1,0 +1,43 @@
+main {
+    h3 {
+        font-size: x-large;
+        margin-bottom: 40px;
+        font-weight: 700;
+    }
+
+    .container-charity {
+        margin-bottom: 120px;
+        margin-top: 0px;
+    }
+}
+
+.container-requisites {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    margin-top: 100px;
+
+    .container-requisites-nested {
+        width: 33%;
+        min-width: 300px;
+        margin-top: 30px;
+
+        h6 {
+            text-align: center;
+            margin-bottom: 15px;
+            font-weight: 700;
+            font-size: large;
+        }
+
+        p {
+            font-size: 19px;
+
+        }
+
+        .p-just {
+            text-align: justify;
+            hyphens: auto;
+        }
+
+    }
+}

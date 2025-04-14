@@ -1,0 +1,254 @@
+body {
+    header {
+        .container-nav {
+            position: fixed;
+            width: 100%;
+            clear: both;
+            right: 0;
+            left: 0;
+            transition-duration: 0.5s;
+            transition-property: all;
+            transition-timing-function: cubic-bezier(.7, 1, .7, 1);
+            color: white;
+            border-bottom: solid 1px;
+            box-shadow: 0px 1px 0px 0px rgb(0, 0, 0, 0.5);
+            z-index: 20;
+
+            .container-width {
+                display: flex;
+                width: 100%;
+
+                .logo {
+                    overflow: hidden;
+                    border-radius: 39%;
+                    flex: 0 0 100px;
+                    margin: auto 0 auto 0;
+
+                    .logo-link {
+                        .logo-img {
+                            max-width: 100px;
+                        }
+                    }
+                }
+
+                .logo-link-back-to-pravbratsk {
+
+                    .logo-link {
+                        display: block;
+                        margin: -50px auto auto auto;
+                        color: white;
+                        background: #55adbd;
+                        border-radius: 25px;
+                        padding: 5px;
+                        text-align: center;
+                    }
+
+                    .logo-link:visited {
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+
+                .navbar {
+                    padding-left: 30px;
+                    margin: 50px 0 0 auto;
+
+                    .menu {
+                        display: flex;
+                        flex-wrap: wrap;
+                        font-size: 17px;
+                        line-height: 3rem;
+                        font-family: 'Lora', serif;
+                        justify-content: center;
+
+                        li {
+                            margin: 0px 2vw 0px 2vw;
+                            white-space: nowrap;
+
+                            .menu-link {
+                                color: rgb(255, 255, 255);
+                            }
+                        }
+
+                        .lock {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .container-nav-back {
+            background-color: #5a6586;
+        }
+
+        .view {
+            background-image: url("../img/Promo-background.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            opacity: 0;
+            animation: view-opacity 2.5s forwards;
+            height: 1350px;
+
+            .opacyti-body {
+                margin: 0 auto;
+                width: 100%;
+                height: 100%;
+                background: rgba(38, 47, 75, 0.4);
+                padding: 400px 0 400px;
+
+                .list-submenu_1,
+                .list-submenu_2,
+                .list-submenu_3,
+                .list-submenu_4,
+                .list-submenu_5 {
+                    color: white;
+                    position: absolute;
+                    visibility: hidden;
+
+                }
+
+                .cerch-name {
+                    text-align: center;
+                    font-size: clamp(40px, 5vw, 90px);
+                    font-family: 'Cormorant Infant', serif;
+                    color: rgb(255, 255, 255);
+                    font-weight: bold;
+                    margin-top: -15%;
+
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:992px) {
+    .body {
+        header {
+
+
+            .container-nav {
+                .container-width {
+
+                    .logo {
+                        position: relative;
+                        z-index: 10;
+                    }
+
+                    .logo-link-back-to-pravbratsk {
+                        margin: 88px 0 0 0;
+                        flex: 1 0 0;
+                        padding-right: 30px;
+                        padding-left: 30px;
+
+
+                    }
+
+                    .NavbarCollaps {
+                        display: block;
+                        position: relative;
+                        width: 30px;
+                        height: 20px;
+                        margin: auto 8% auto auto;
+                        z-index: 10;
+                    }
+
+                    .NavbarCollaps::before,
+                    .NavbarCollaps::after {
+                        display: block;
+                        content: '';
+                        background-color: #641010;
+                        position: absolute;
+                        width: 100%;
+                        height: 2px;
+                        left: 0;
+                        transition: all 0.3s ease 0s;
+                    }
+
+                    .NavbarCollaps::before {
+                        top: 0;
+                    }
+
+                    .NavbarCollaps::after {
+                        bottom: 0;
+                    }
+
+                    .NavbarCollaps span {
+                        position: absolute;
+                        background-color: #641010;
+                        left: 0;
+                        width: 100%;
+                        height: 2px;
+                        top: 10px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        transition: all 0.3s ease 0s;
+                    }
+
+                    .NavbarCollaps.collaps::before {
+                        transform: rotate(45deg);
+                        top: 9px;
+
+                    }
+
+                    .NavbarCollaps.collaps::after {
+                        transform: rotate(-45deg);
+                        top: 9px;
+                    }
+
+                    .NavbarCollaps.collaps span {
+                        transform: scale(0);
+                    }
+
+                    .navbar {
+                        top: -100%;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        position: fixed;
+                        transition: all 0.4s ease 0s;
+
+                        .menu {
+                            display: none;
+                            margin: 125px 50px auto 9%;
+                            text-align: right;
+
+                        }
+
+                        .menu.collaps {
+                            display: block;
+                            margin: 25px 50px auto 9%;
+                            text-align: right;
+
+                            .lock {
+                                display: block;
+
+                                .menu-link {
+                                    color: #641010;
+                                }
+                            }
+
+                            .menu-link {
+                                color: rgba(38, 47, 75, 0.9);
+                            }
+                        }
+                    }
+
+                    .navbar.collaps {
+                        color: rgba(38, 47, 75, 0.9);
+                        border-bottom-color: #f0f0f0;
+                        transition-duration: 0.5s;
+                        transition-property: all;
+                        transition-timing-function: cubic-bezier(ease-in-out);
+                        background: rgba(255, 255, 255);
+                        margin-top: 106px;
+                        top: 0;
+                        border-top: blue 1px;
+                    }
+                }
+            }
+
+        }
+    }
+}

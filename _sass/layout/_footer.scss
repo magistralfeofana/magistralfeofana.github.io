@@ -1,0 +1,117 @@
+.page-footer {
+    .container-width {
+        .page-footer-content {
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+
+            .page-footer-section {
+                display: flex;
+                flex-wrap: nowrap;
+                margin: 50px 0;
+                width: 50%;
+                min-width: 400px;
+                padding-right: 20px;
+
+                .page-footer-menu {
+                    margin-top: 0;
+                    min-width: 180px;
+
+
+                    h6 {
+                        white-space: nowrap;
+                        text-transform: uppercase;
+                        margin-bottom: 10px;
+                    }
+
+                    p {
+                        line-height: 2.2;
+                        white-space: nowrap;
+
+                        a {
+                            color: #1a0dab;
+                        }
+                    }
+
+                    .wrap-p {
+                        white-space: normal;
+                    }
+                }
+            }
+        }
+
+        .image-messenger {
+            margin-bottom: 30px;
+            text-align: right;
+            margin-right: 41px;
+
+            .image-messenger-a {
+                padding: 0 20px 0 20px;
+
+                .image-messenger-img {
+
+                    border-radius: 100px;
+                    height: 100%;
+                    max-block-size: 50px;
+
+                }
+            }
+        }
+    }
+}
+
+
+.footer-copyright {
+    background: rgba(255, 255, 255, 0.9);
+    font-family: 'Lora', serif;
+
+    .container-fluid {
+        text-align: right;
+        margin-right: auto;
+
+        .footer-logo {
+            color: #1a0dab;
+        }
+
+    }
+}
+
+@media (max-width:992px) {
+    .page-footer {
+        .container-width {
+            .page-footer-content {
+                .page-footer-section {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .footer-copyright {
+        .container-fluid {
+            margin-right: auto;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width:420px) {
+    .page-footer {
+        .container-width {
+            .page-footer-content {
+                .page-footer-section {
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 100%;
+                    min-width: unset;
+                    padding-right: 20px;
+                    margin: 0 0 0 0;
+
+                    .page-footer-menu {
+                        margin-bottom: 50px;
+                    }
+                }
+            }
+        }
+    }
+}

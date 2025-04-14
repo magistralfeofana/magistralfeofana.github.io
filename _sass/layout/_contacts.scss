@@ -1,0 +1,32 @@
+.container-contacts {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    margin-top: 60px;
+
+    h6 {
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    .adres {
+        margin-top: 0px;
+        width: 33%;
+        min-width: 180px;
+        margin-bottom: 30px;
+    }
+
+    .rezim {
+        margin-top: 0px;
+        width: 33%;
+        min-width: 180px;
+        margin-bottom: 30px;
+    }
+
+    .telefon {
+        margin-top: 0px;
+        width: 33%;
+        min-width: 180px;
+        margin-bottom: 30px;
+    }
+}

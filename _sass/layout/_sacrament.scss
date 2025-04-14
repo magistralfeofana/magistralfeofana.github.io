@@ -1,0 +1,47 @@
+.ceremonies-list {
+    h3 {
+        font-size: clamp(22px, 5vw, 33px);
+        padding-bottom: 50px;
+    }
+
+    .block-sacrament {
+        display: flex;
+        flex-wrap: wrap;
+
+
+        .item-img {
+            margin-top: 0;
+            position: relative;
+            margin-bottom: 100px;
+            overflow: hidden;
+            max-width: 400px;
+            min-width: 200px;
+
+            .img-sacrament {
+                border-radius: 2%;
+                width: 100%;
+                border: 3px solid #55adbd;
+                box-shadow: 2px 1px 5px #999999;
+            }
+
+
+        }
+
+        .item-body {
+            margin-top: 0;
+
+            .description {
+                padding-left: 50px;
+                padding-right: 50px;
+                max-width: 880px;
+                min-width: 420px;
+                margin-top: 0;
+
+                .rich-text {
+                    text-align: left;
+                    font-size: large;
+                }
+            }
+        }
+    }
+}
