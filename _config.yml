@@ -12,5 +12,8 @@ sass:
   sass_dir: _sass
   style: compressed
 
+include:
+  - _pages
+
 timezone: Asia/Irkutsk
 encoding: utf-8
