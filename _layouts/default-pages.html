@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Адаптив-область vieport будет подстраиваться под ширину экрана. Первое значение изначальный масштаб страницы. Второе максималтный масштаб страницы. Третье запрет масштабирования. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum--scale=1.0, user-scalable=0">
+    <!--Отключает формирование ссылки у теелфона на iOS-->
+    <meta name="format-detection" content="telephone=no">
+    <!--Краткое описание страницы-->
+    <meta name="description" content="Храм во имя свт. Феофана Затворника (п. Магистральный)">
+    <!-- Управление доступом поисковых роботов к странице -->
+    <meta name="robots" content="noindex">
+    <!--Название страницы-->
+    <title>{{ page.title }}</title>
+    <link rel="icon" href="{{ '/assets/img/favicon.ico' | relative_url }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ '/assets/vendor/colorbox/css/colorbox.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/vendor/swiper/css/swiper.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+
+<body class="body _anim-items">
+
+    <!-- Navigation & Intro -->
+    <header>
+        {% include navbar.html %}
+        {% include navbar-back.html %}
+    </header>
+
+    <!-- Main content -->
+    <div class="background-site">
+        <div class="opacyti-body">
+            <div class="container-width">
+                <main>
+                    {{ content }}
+                </main>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        {% include footer.html %}
+    </footer>
+
+    <a href="javascript:void(0);" class="js-back-to-top back-to-top">Наверх</a>
+
+    <script src="{{ '/assets/libs/jquery-3.6.3.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
+    <script src="{{ '/assets/vendor/jquery.back-to-top.js' | relative_url }}"></script>
+    <script src="{{ '/assets/vendor/colorbox/js/jquery.colorbox-min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/vendor/colorbox/js/jquery.colorbox-ru.js' | relative_url }}"></script>
+    <script src="{{ '/assets/vendor/colorbox/js/colorbox.js' | relative_url }}"></script>
+    <script src="{{ '/assets/vendor/swiper/js/swiper-bundle.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/vendor/swiper/js/swiper.js' | relative_url }}"></script>
+</body>
+
+</html>
