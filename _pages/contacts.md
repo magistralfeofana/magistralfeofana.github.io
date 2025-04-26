@@ -6,12 +6,12 @@ permalink: /contacts/
 yandexmap_api_url: https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=37c37bb1-da89-4320-9eac-e07676e2ce34"
 ---
 
-<h2 class="body-header">ХРАМ В ЧЕСТЬ УСПЕНИЯ БОЖИЕЙ МАТЕРИ <br>В ГОРОДЕ УСТЬ-КУТ</h2>
+<h2 class="body-header">ХРАМ ВО ИМЯ СВЯТИТЕЛЯ ФЕОФАНА ЗАТВОРНИКА <br>В ПОСЕЛКЕ МАГИСТРАЛЬНЫЙ</h2>
 <div class="container-contacts">
     <div class="adres">
         <h6>Адрес</h6>
         <p>
-            Иркутская обл., г. Усть-Кут, Седова, 35
+            Иркутская обл., Казачинско-Ленский р-н., п.Магистральный, ул. Российкая, 2А
         </p>
     </div>
     <div class="rezim">
@@ -23,7 +23,7 @@ yandexmap_api_url: https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=37c37bb
     <div class="telefon">
         <h6>Телефоны</h6>
         <p>
-            +7 (39565) 60506
+            +7 950 118 38 28
         </p>
     </div>
 </div>
