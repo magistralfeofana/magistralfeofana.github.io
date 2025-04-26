@@ -11,7 +11,7 @@ permalink: /clergy/
 <div class="container-clergy">
     <div class="container-clergy-img-contacts">
         <div class="container-clergy-img">
-            <img src="/img/13_1.jpg" alt=" протоиерей Иоанн Иванович Боричевский">
+            <img src="assets/img/13_1.jpg" alt=" протоиерей Иоанн Иванович Боричевский">
         </div>
         <div class="container-clergy-contacts">
             <p>Телефон: </p><a href="tel:+79501183828">+79501183828</a> <br>
