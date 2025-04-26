@@ -1,5 +1,5 @@
 ---
-layout: default-pages
+layout: default
 title: Храм во имя свт. Феофана Затворника (п. Магистральный)
 description: Храм во имя свт. Феофана Затворника (п. Магистральный)
 permalink: /timetable/
