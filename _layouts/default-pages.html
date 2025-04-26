@@ -21,6 +21,9 @@
     {% if page.custom_css %}
     <link rel="stylesheet" href="{{ '/assets/vendor/yookassa/css/' | append: page.custom_css | relative_url }}">
     {% endif %}
+    {% if page.feed_css %}
+    <link rel="stylesheet" href="{{ '/assets/vendor/FeedEk/css/FeedEk.css' | relative_url }}">
+    {% endif %}
 </head>
 
 <body class="body _anim-items">
