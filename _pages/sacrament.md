@@ -12,7 +12,7 @@ permalink: /sacrament/
     <div class="block-sacrament">
 
         <div class="item-img">
-            <img class="img-sacrament" src="/img/img-sacrament/Baptism.JPG" alt="Таинство Крещения">
+            <img class="img-sacrament" src="/assets/img/img-sacrament/Baptism.JPG" alt="Таинство Крещения">
         </div>
         <div class="item-body">
 
@@ -48,7 +48,7 @@ permalink: /sacrament/
     <h3>Причастие</h3>
     <div class="block-sacrament">
         <div class="item-img">
-            <img class="img-sacrament" src="/img/img-sacrament/Eucharist.jpg" alt="Тело Христово">
+            <img class="img-sacrament" src="/assets//img/img-sacrament/Eucharist.jpg" alt="Тело Христово">
         </div>
         <div class="item-body">
 
@@ -88,7 +88,7 @@ permalink: /sacrament/
     <h3>Венчание</h3>
     <div class="block-sacrament">
         <div class="item-img">
-            <img class="img-sacrament" src="/img/img-sacrament/Wedding.JPG" alt="Венцы">
+            <img class="img-sacrament" src="/assets//img/img-sacrament/Wedding.JPG" alt="Венцы">
         </div>
         <div class="item-body">
 
@@ -121,7 +121,7 @@ permalink: /sacrament/
     <h3>Собороваание</h3>
     <div class="block-sacrament">
         <div class="item-img">
-            <img class="img-sacrament" src="/img/img-sacrament/Soborovanie.jpg"
+            <img class="img-sacrament" src="/assets//img/img-sacrament/Soborovanie.jpg"
                 alt="Соборование. Фото взято с сайта https://pravoslavie.ru/108661.html">
         </div>
         <div class="item-body">
@@ -156,7 +156,7 @@ permalink: /sacrament/
     <h3>Требы</h3>
     <div class="block-sacrament">
         <div class="item-img">
-            <img class="img-sacrament" src="/img/img-sacrament/treby.jpg" alt="Требы">
+            <img class="img-sacrament" src="/assets//img/img-sacrament/treby.jpg" alt="Требы">
         </div>
         <div class="item-body">
 
@@ -187,7 +187,7 @@ permalink: /sacrament/
     <h3>О подаче записок</h3>
     <div class="block-sacrament">
         <div class="item-img">
-            <img class="img-sacrament" src="/img/img-sacrament/note.jpg" alt="Требы">
+            <img class="img-sacrament" src="/assets//img/img-sacrament/note.jpg" alt="Требы">
         </div>
         <div class="item-body">
 
