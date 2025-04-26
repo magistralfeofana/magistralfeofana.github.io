@@ -11,7 +11,7 @@ yandexmap_api_url: https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=37c37bb
     <div class="adres">
         <h6>Адрес</h6>
         <p>
-            Иркутская обл., Казачинско-Ленский р-н., п.Магистральный, ул. Российкая, 2А
+            Иркутская обл., Казачинско-Ленский р-н.,<br> п.Магистральный, ул. Российкая, 2А
         </p>
     </div>
     <div class="rezim">
