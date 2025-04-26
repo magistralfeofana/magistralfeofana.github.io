@@ -7,6 +7,7 @@ background_class: "background-site-timetable"
 opacity_class: "opacyti-body-timetable"
 container_class: "container-width-timetable"
 main_class: "timetable"
+hide_nav_back: true
 ---
 
 
