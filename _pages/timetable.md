@@ -3,6 +3,9 @@ layout: default-pages
 title: Храм во имя свт. Феофана Затворника (п. Магистральный)
 description: Храм во имя свт. Феофана Затворника (п. Магистральный)
 permalink: /timetable/
+backgroundn_class: "background-site-timetable"
+opacityn_class: "opacyti-body-timetable"
+containern_class: "container-width-timetable"
 main_class: "timetable"
 ---
 

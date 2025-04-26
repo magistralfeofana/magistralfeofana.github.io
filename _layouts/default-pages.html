@@ -32,9 +32,9 @@
     </header>
 
     <!-- Main content -->
-    <div class="background-site">
-        <div class="opacyti-body">
-            <div class="container-width">
+    <div class="background-site{% if page.background_class %} {{ page.background_class }}{% endif %}">
+        <div class="opacyti-body{% if page.opacity_class %} {{ page.opacity_class }}{% endif %}">
+            <div class="container-width{% if page.container_class %} {{ page.container_class }}{% endif %}">
                 <main {% if page.main_class %}class="{{ page.main_class }}" {% endif %}>
                     {{ content }}
                 </main>
