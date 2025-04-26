@@ -57,7 +57,11 @@
     <script src="{{ '/assets/vendor/swiper/js/swiper-bundle.min.js' | relative_url }}"></script>
     <script src="{{ '/assets/vendor/swiper/js/swiper.js' | relative_url }}"></script>
     {% if page.yookassa_js_url %}
-    <script src="{{ page.yookassa_js_url }}"></script>
+    <script src="{{ page.yookassa_js_url }}" defer></script>
+    {% endif %}
+
+    {% if page.yandexmap_api_url %}
+    <script src="{{ page.yandexmap_api_url }}" defer></script>
     {% endif %}
 </body>
 
