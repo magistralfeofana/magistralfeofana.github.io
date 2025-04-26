@@ -35,7 +35,7 @@
     <div class="background-site">
         <div class="opacyti-body">
             <div class="container-width">
-                <main>
+                <main {% if page.main_class %}class="{{ page.main_class }}" {% endif %}>
                     {{ content }}
                 </main>
             </div>
