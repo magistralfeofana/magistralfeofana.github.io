@@ -11,7 +11,7 @@ permalink: /clergy/
 <div class="container-clergy">
     <div class="container-clergy-img-contacts">
         <div class="container-clergy-img">
-            <img src="assets/img/13_1.jpg" alt=" протоиерей Иоанн Иванович Боричевский">
+            <img src="/assets/img/13_1.jpg" alt=" протоиерей Иоанн Иванович Боричевский">
         </div>
         <div class="container-clergy-contacts">
             <p>Телефон: </p><a href="tel:+79501183828">+79501183828</a> <br>
@@ -36,7 +36,8 @@ permalink: /clergy/
                     честь Святой Троицы пгт. Улькан</a> (настоятель)</li>
         </ul>
         <ul>
-            <li>благочинный <a href="/deanery/kazachinsko-lenskoe-blagochinie/">Казачинско-Ленского церковного
+            <li>благочинный <a href="https://pravbratsk.ru/deanery/kazachinsko-lenskoe-blagochinie/">Казачинско-Ленского
+                    церковного
                     округа</a></li>
             <li>член <a
                     href="https://pravbratsk.ru/diocese/komissija-po-protivodejstviju-sektantskoj-dejatelnosti/">Комиссии
