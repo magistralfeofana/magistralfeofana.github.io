@@ -63,6 +63,10 @@
     <script src="{{ page.yandexmap_api_url }}" defer></script>
     {% endif %}
 
+    {% if page.feed_scripts %}
+    <script src="{{ '/assets/vendor/FeedEk/js/FeedEk.js' | relative_url }}"></script>
+    <script src="{{ '/assets/vendor/FeedEk/js/Feed.js' | relative_url }}"></script>
+    {% endif %}
 </body>
 
 </html>

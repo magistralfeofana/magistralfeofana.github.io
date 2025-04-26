@@ -3,12 +3,13 @@ layout: default-pages
 title: Храм во имя свт. Феофана Затворника (п. Магистральный)
 description: Храм во имя свт. Феофана Затворника (п. Магистральный)
 permalink: /news/
+feed_scripts: true
 ---
 
 <h2 class="body-header">Новости епархии</h2>
 <div id="divFeed"></div>
 
-<div class="news-cherh">
+<div class="news-cherh"> 
     <h2 class="body-header">Новости прихода</h2>
     <ul class="feedEkList">
         <li>
