@@ -71,8 +71,8 @@ permalink: /sacrament/
 
                     </p>
                     <p>
-                        Время совершения Литургии и Вечернего богослужения можно посмотреть в <a target="_blank"
-                            href="/Uspenie-cerh/worship/timetable">расписании
+                        Время совершения Литургии и Вечернего богослужения можно посмотреть в <a
+                            href="{{ site.baseurl }}/timetable"> расписании
                             храма</a> или узнать
                         по&nbsp;телефону:&nbsp;
                     </p>
