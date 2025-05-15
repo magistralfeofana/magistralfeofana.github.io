@@ -276,7 +276,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
 }
 
 :root {
-  --swiper-navigation-size: 300px;
+  --swiper-navigation-size: 110px;
   /*
   --swiper-navigation-top-offset: 50%;
   --swiper-navigation-sides-offset: 10px;
@@ -291,7 +291,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader,
   // width было 44*27
   width: calc(var(--swiper-navigation-size) / 44 * 20);
   height: var(--swiper-navigation-size);
-  margin-top: calc(580px - (var(--swiper-navigation-size) / 2));
+  margin-top: calc(970px - (var(--swiper-navigation-size) / 2));
   z-index: 10;
   cursor: pointer;
   display: flex;
