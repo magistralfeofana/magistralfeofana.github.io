@@ -46,99 +46,99 @@ description: Храм во имя свт. Феофана Затворника (�
         <div class="image-slider_wrapper swiper-wrapper">
             <div class="image-slider_slide swiper-slide">
                 <div class="image-slider_image">
-                    <a class="group fade" href="/img/history-img/Untitled-3.jpg">
-                        <img class="fade" src="/img/history-img/Untitled-3.jpg" alt="">
+                    <a class="group fade" href="{{ '/assets/img/history-img/Untitled-3.jpg' | relative_url }}">
+                        <img class="fade" src="{{ '/assets/img/history-img/Untitled-3.jpg' | relative_url }}" alt="">
                     </a>
                 </div>
             </div>
             <div class="image-slider_slide swiper-slide">
                 <div class="image-slider_image">
-                    <a class="group fade" href="/img/history-img/Untitled-4.jpg">
-                        <img class="fade" src="/img/history-img/Untitled-4.jpg" alt="">
+                    <a class="group fade" href="{{ '/assets/img/history-img/Untitled-4.jpg' | relative_url }}">
+                        <img class="fade" src="{{ '/assets/img/history-img/Untitled-4.jpg' | relative_url }}" alt="">
                     </a>
                 </div>
             </div>
             <div class="image-slider_slide swiper-slide">
                 <div class="image-slider_image">
-                    <a class="group fade" href="/img/history-img/Untitled-5.jpg">
-                        <img class="fade" src="/img/history-img/Untitled-5.jpg" alt="">
+                    <a class="group fade" href="{{ '/assets/img/history-img/Untitled-5.jpg' | relative_url }}">
+                        <img class="fade" src="{{ '/assets/img/history-img/Untitled-5.jpg' | relative_url }}" alt="">
                     </a>
                 </div>
             </div>
             <div class="image-slider_slide swiper-slide">
                 <div class="image-slider_image">
-                    <a class="group fade" href="/img/history-img/Untitled-6.jpg">
-                        <img class="fade" src="/img/history-img/Untitled-6.jpg" alt="">
+                    <a class="group fade" href="{{ '/assets/img/history-img/Untitled-6.jpg' | relative_url }}">
+                        <img class="fade" src="{{ '/assets/img/history-img/Untitled-6.jpg' | relative_url }}" alt="">
                     </a>
                 </div>
             </div>
             <div class="image-slider_slide swiper-slide">
                 <div class="image-slider_image">
-                    <a class="group fade" href="/img/history-img/Untitled-7.jpg">
-                        <img class="fade" src="/img/history-img/Untitled-7.jpg" alt="">
+                    <a class="group fade" href="{{ '/assets/img/history-img/Untitled-7.jpg' | relative_url }}">
+                        <img class="fade" src="{{ '/assets/img/history-img/Untitled-7.jpg' | relative_url }}" alt="">
                     </a>
                 </div>
             </div>
             <div class="image-slider_slide swiper-slide">
                 <div class="image-slider_image">
-                    <a class="group fade" href="/img/history-img/Untitled-8.jpg">
-                        <img class="fade" src="/img/history-img/Untitled-8.jpg" alt="">
+                    <a class="group fade" href="{{ '/assets/img/history-img/Untitled-8.jpg' | relative_url }}">
+                        <img class="fade" src="{{ '/assets/img/history-img/Untitled-8.jpg' | relative_url }}" alt="">
                     </a>
                 </div>
             </div>
             <div class="image-slider_slide swiper-slide">
                 <div class="image-slider_image">
-                    <a class="group fade" href="/img/history-img/Untitled-9.jpg">
-                        <img class="fade" src="/img/history-img/Untitled-9.jpg" alt="">
+                    <a class="group fade" href="{{ '/assets/img/history-img/Untitled-9.jpg' | relative_url }}">
+                        <img class="fade" src="{{ '/assets/img/history-img/Untitled-9.jpg' | relative_url }}" alt="">
                     </a>
                 </div>
             </div>
             <div class="image-slider_slide swiper-slide">
                 <div class="image-slider_image">
-                    <a class="group fade" href="/img/history-img/Untitled-10.jpg">
-                        <img class="fade" src="/img/history-img/Untitled-10.jpg" alt="">
+                    <a class="group fade" href="{{ '/assets/img/history-img/Untitled-10.jpg' | relative_url }}">
+                        <img class="fade" src="{{ '/assets/img/history-img/Untitled-10.jpg' | relative_url }}" alt="">
                     </a>
                 </div>
             </div>
             <div class="image-slider_slide swiper-slide">
                 <div class="image-slider_image">
-                    <a class="group fade" href="/img/history-img/Untitled-11.jpg">
-                        <img class="fade" src="/img/history-img/Untitled-11.jpg" alt="">
+                    <a class="group fade" href="{{ '/assets/img/history-img/Untitled-11.jpg' | relative_url }}">
+                        <img class="fade" src="{{ '/assets/img/history-img/Untitled-11.jpg' | relative_url }}" alt="">
                     </a>
                 </div>
             </div>
             <div class="image-slider_slide swiper-slide">
                 <div class="image-slider_image">
-                    <a class="group fade" href="/img/history-img/Untitled-12.jpg">
-                        <img class="fade" src="/img/history-img/Untitled-12.jpg" alt="">
+                    <a class="group fade" href="{{ '/assets/img/history-img/Untitled-12.jpg' | relative_url }}">
+                        <img class="fade" src="{{ '/assets/img/history-img/Untitled-12.jpg' | relative_url }}" alt="">
                     </a>
                 </div>
             </div>
             <div class="image-slider_slide swiper-slide">
                 <div class="image-slider_image">
-                    <a class="group fade" href="/img/history-img/Untitled-13.jpg">
-                        <img class="fade" src="/img/history-img/Untitled-13.jpg" alt="">
+                    <a class="group fade" href="{{ '/assets/img/history-img/Untitled-13.jpg' | relative_url }}">
+                        <img class="fade" src="{{ '/assets/img/history-img/Untitled-13.jpg' | relative_url }}" alt="">
                     </a>
                 </div>
             </div>
             <div class="image-slider_slide swiper-slide">
                 <div class="image-slider_image">
-                    <a class="group fade" href="/img/history-img/Untitled-14.jpg">
-                        <img class="fade" src="/img/history-img/Untitled-14.jpg" alt="">
+                    <a class="group fade" href="{{ '/assets/img/history-img/Untitled-14.jpg' | relative_url }}">
+                        <img class="fade" src="{{ '/assets/img/history-img/Untitled-14.jpg' | relative_url }}" alt="">
                     </a>
                 </div>
             </div>
             <div class="image-slider_slide swiper-slide">
                 <div class="image-slider_image">
-                    <a class="group fade" href="/img/history-img/Untitled-1.jpg">
-                        <img class="fade" src="/img/history-img/Untitled-1.jpg" alt="">
+                    <a class="group fade" href="{{ '/assets/img/history-img/Untitled-1.jpg' | relative_url }}">
+                        <img class="fade" src="{{ '/assets/img/history-img/Untitled-1.jpg' | relative_url }}" alt="">
                     </a>
                 </div>
             </div>
             <div class="image-slider_slide swiper-slide">
                 <div class="image-slider_image">
-                    <a class="group fade" href="/img/history-img/Untitled-2.jpg">
-                        <img class="fade" src="/img/history-img/Untitled-2.jpg" alt="">
+                    <a class="group fade" href="{{ '/assets/img/history-img/Untitled-2.jpg' | relative_url }}">
+                        <img class="fade" src="{{ '/assets/img/history-img/Untitled-2.jpg' | relative_url }}" alt="">
                     </a>
                 </div>
             </div>
