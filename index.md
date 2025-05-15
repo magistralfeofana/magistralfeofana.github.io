@@ -10,12 +10,14 @@ description: Храм во имя свт. Феофана Затворника (�
 <h2 class="body-header">История храма</h2>
 <div class="container-image-history_1">
     <a class="colorbox" href="{{ '/assets/img/history-img/Untitled-1.jpg' | relative_url }}">
-        <img class="image-history_1" src="{{ '/assets/img/history-img/Untitled-1.jpg' | relative_url }}" alt="Прошение приходского совета г. Усть-Кут">
+        <img class="image-history_1" src="{{ '/assets/img/history-img/Untitled-1.jpg' | relative_url }}"
+            alt="Прошение приходского совета п. Магистральный">
     </a>
 </div>
 <div class="container-image-history_2">
     <a class="colorbox" href="{{ '/assets/img/history-img/Untitled-2.jpg' | relative_url }}">
-        <img class="image-history_2" src="{{ '/assets/img/history-img/Untitled-2.jpg' | relative_url }}" alt="Прошение приходского совета г. Усть-Кут">
+        <img class="image-history_2" src="{{ '/assets/img/history-img/Untitled-2.jpg' | relative_url }}"
+            alt="Прошение приходского совета п. Магистральный">
     </a>
 </div>
 <div class="lorem">
@@ -23,4 +25,112 @@ description: Храм во имя свт. Феофана Затворника (�
         Приход в честь святителя Феофана Затворника в поселке Магистральный был образован в 199...
     </p>
 </div>
+<div class="container-slider">
+    <div class="image-slider swiper-container">
+        <div class="image-slider_wrapper swiper-wrapper">
+            <div class="image-slider_slide swiper-slide">
+                <div class="image-slider_image">
+                    <a class="group fade" href="/img/history-img/Untitled-3.jpg">
+                        <img class="fade" src="/img/history-img/Untitled-3.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="image-slider_slide swiper-slide">
+                <div class="image-slider_image">
+                    <a class="group fade" href="/img/history-img/Untitled-4.jpg">
+                        <img class="fade" src="/img/history-img/Untitled-4.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="image-slider_slide swiper-slide">
+                <div class="image-slider_image">
+                    <a class="group fade" href="/img/history-img/Untitled-5.jpg">
+                        <img class="fade" src="/img/history-img/Untitled-5.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="image-slider_slide swiper-slide">
+                <div class="image-slider_image">
+                    <a class="group fade" href="/img/history-img/Untitled-6.jpg">
+                        <img class="fade" src="/img/history-img/Untitled-6.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="image-slider_slide swiper-slide">
+                <div class="image-slider_image">
+                    <a class="group fade" href="/img/history-img/Untitled-7.jpg">
+                        <img class="fade" src="/img/history-img/Untitled-7.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="image-slider_slide swiper-slide">
+                <div class="image-slider_image">
+                    <a class="group fade" href="/img/history-img/Untitled-8.jpg">
+                        <img class="fade" src="/img/history-img/Untitled-8.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="image-slider_slide swiper-slide">
+                <div class="image-slider_image">
+                    <a class="group fade" href="/img/history-img/Untitled-9.jpg">
+                        <img class="fade" src="/img/history-img/Untitled-9.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="image-slider_slide swiper-slide">
+                <div class="image-slider_image">
+                    <a class="group fade" href="/img/history-img/Untitled-10.jpg">
+                        <img class="fade" src="/img/history-img/Untitled-10.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="image-slider_slide swiper-slide">
+                <div class="image-slider_image">
+                    <a class="group fade" href="/img/history-img/Untitled-11.jpg">
+                        <img class="fade" src="/img/history-img/Untitled-11.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="image-slider_slide swiper-slide">
+                <div class="image-slider_image">
+                    <a class="group fade" href="/img/history-img/Untitled-12.jpg">
+                        <img class="fade" src="/img/history-img/Untitled-12.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="image-slider_slide swiper-slide">
+                <div class="image-slider_image">
+                    <a class="group fade" href="/img/history-img/Untitled-13.jpg">
+                        <img class="fade" src="/img/history-img/Untitled-13.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="image-slider_slide swiper-slide">
+                <div class="image-slider_image">
+                    <a class="group fade" href="/img/history-img/Untitled-14.jpg">
+                        <img class="fade" src="/img/history-img/Untitled-14.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="image-slider_slide swiper-slide">
+                <div class="image-slider_image">
+                    <a class="group fade" href="/img/history-img/Untitled-1.jpg">
+                        <img class="fade" src="/img/history-img/Untitled-1.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="image-slider_slide swiper-slide">
+                <div class="image-slider_image">
+                    <a class="group fade" href="/img/history-img/Untitled-2.jpg">
+                        <img class="fade" src="/img/history-img/Untitled-2.jpg" alt="">
+                    </a>
+                </div>
+            </div>
 
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+</div>
