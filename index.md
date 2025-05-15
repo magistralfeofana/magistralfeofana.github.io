@@ -40,23 +40,7 @@ description: Храм во имя свт. Феофана Затворника (�
         est eligendi non, ex neque pariatur cupiditate expedita perferendis fugiat, voluptatum consectetur alias. Animi
         natus vel dolore voluptas! Suscipit id delectus exercitationem hic et dolor debitis pariatur modi sed
         repudiandae harum, iste rerum possimus cum adipisci sunt voluptas qui veritatis nihil amet tenetur recusandae!
-        Nostrum pariatur porro accusantium reprehenderit ex quasi recusandae, voluptate obcaecati dolorum. Blanditiis
-        hic dicta libero ut enim temporibus, quaerat neque atque doloribus accusantium aut. Dolores doloribus dolor esse
-        voluptas eius iusto, neque cum, doloremque in nobis sit facilis ullam ea reprehenderit repellat, adipisci
-        pariatur quos qui sed quidem minus quis delectus? Cum quasi fugit iusto minus eos fugiat pariatur, asperiores
-        iste deleniti eligendi delectus corporis. Dolore, deleniti nulla tempora adipisci facere asperiores sit est et
-        eius aspernatur, perferendis tempore hic ex ad doloribus veritatis id necessitatibus quidem accusantium ducimus!
-        Commodi rerum hic in optio debitis doloremque tempore ipsam mollitia, at iste voluptate molestias voluptatibus
-        quidem. Cum debitis eaque libero beatae ducimus, sit sapiente distinctio blanditiis! Optio, deserunt? Illum,
-        natus optio. Quam maxime consequatur rem porro. Tenetur adipisci deleniti expedita laudantium corrupti optio
-        cupiditate officiis nesciunt quibusdam, earum tempora iusto totam consectetur quod explicabo incidunt soluta
-        illum at, ullam qui vitae. Amet eligendi veniam, aspernatur, iste laboriosam laudantium harum rerum error
-        facilis vitae assumenda corrupti et possimus obcaecati beatae tempora sunt corporis deserunt eius perferendis
-        recusandae praesentium dolorem consequuntur? Consequatur suscipit aperiam doloremque minima consequuntur
-        quisquam quo libero nostrum soluta fugit, quam animi architecto totam debitis dolore sit fugiat repellat porro
-        modi tempora. In mollitia natus ipsa labore animi? Eaque, laudantium incidunt minima molestias, voluptatibus
-        molestiae, quaerat commodi tempora voluptate ea adipisci tempore nesciunt odio in ipsam itaque explicabo magnam
-        necessitatibus magni officiis. Quae aperiam ut at quo molestiae debitis ipsum, adipisci odit blanditiis
+
     </p>
 </div>
 <div class="container-slider">
