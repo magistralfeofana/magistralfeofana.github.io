@@ -40,7 +40,13 @@ description: Храм во имя свт. Феофана Затворника (�
         voluptates quas quod quibusdam harum, distinctio maiores eos amet aliquid quo inventore ipsa, quam optio
         expedita! Incidunt ullam nam dolorem eligendi? Dignissimos perspiciatis vel eum quos, voluptatem explicabo nemo.
     </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, modi!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo amet officia ipsa. Atque, voluptas. Facere quos
+        eius tenetur sunt laudantium, sit natus et delectus doloribus inventore corporis, quidem qui fugiat ipsum,
+        mollitia ducimus iusto dolore libero quia id! Voluptates, nostrum molestiae excepturi libero ipsa nemo
+        voluptatem deleniti. Illum quasi, dolorum asperiores, voluptas nam itaque, expedita ipsam doloribus ipsa ad</p>
 </div>
+
 <div class="container-slider">
     <div class="image-slider swiper-container">
         <div class="image-slider_wrapper swiper-wrapper">
