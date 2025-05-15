@@ -26,21 +26,19 @@ description: Храм во имя свт. Феофана Затворника (�
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quae autem voluptatum saepe non, porro numquam
         explicabo aperiam, placeat ipsa unde necessitatibus sapiente debitis, illum temporibus tempora minima? Animi,
         molestias.
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, modi!
+    </p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, modi!
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo amet officia ipsa. Atque, voluptas. Facere quos
         eius tenetur sunt laudantium, sit natus et delectus doloribus inventore corporis, quidem qui fugiat ipsum,
         mollitia ducimus iusto dolore libero quia id! Voluptates, nostrum molestiae excepturi libero ipsa nemo
-        voluptatem deleniti. Illum quasi, dolorum asperiores, voluptas nam itaque, expedita ipsam doloribus ipsa ad
-        eveniet odit aspernatur iste beatae ullam blanditiis recusandae. Perferendis deleniti rerum non harum saepe
+        voluptatem deleniti. Illum quasi, dolorum asperiores, voluptas nam itaque, expedita ipsam doloribus ipsa ad</p>
+
+    <p> eveniet odit aspernatur iste beatae ullam blanditiis recusandae. Perferendis deleniti rerum non harum saepe
         veritatis, deserunt assumenda! Commodi, repellat! Repellat quisquam dignissimos dicta delectus, ea a architecto,
         aut corporis enim nostrum inventore porro esse harum minima. Sed, cum minima! Aspernatur vero praesentium, ea
         voluptates quas quod quibusdam harum, distinctio maiores eos amet aliquid quo inventore ipsa, quam optio
         expedita! Incidunt ullam nam dolorem eligendi? Dignissimos perspiciatis vel eum quos, voluptatem explicabo nemo.
-        Quia blanditiis voluptatum ex quasi, assumenda iste laborum excepturi explicabo architecto libero. Minima quos
-        est eligendi non, ex neque pariatur cupiditate expedita perferendis fugiat, voluptatum consectetur alias. Animi
-        natus vel dolore voluptas! Suscipit id delectus exercitationem hic et dolor debitis pariatur modi sed
-        repudiandae harum, iste rerum possimus cum adipisci sunt voluptas qui veritatis nihil amet tenetur recusandae!
-
     </p>
 </div>
 <div class="container-slider">
