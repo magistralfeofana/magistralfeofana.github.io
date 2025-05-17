@@ -17,7 +17,7 @@ yandexmap_api_url: https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=37c37bb
     <div class="rezim">
         <h6>Режим работы</h6>
         <p>
-            Пн-Вс. с 8:00 до 19:00
+            Пн-Вс. с 9:00 до 17:00
         </p>
     </div>
     <div class="telefon">
