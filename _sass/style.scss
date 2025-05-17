@@ -267,7 +267,7 @@ body {
 
         .swiper-button-prev,
         .swiper-button-next {
-            margin-top: calc(700px - (var(--swiper-navigation-size) / 2));
+            margin-top: calc(700px - (var(--swiper-navigation-size) / 2)); //1040
         }
     }
 
